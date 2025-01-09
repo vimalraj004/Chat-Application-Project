@@ -1,0 +1,63 @@
+.background{
+    height: 12%;
+    width: 90%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 3px black;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    padding: 10px;
+}
+.name{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    /* padding: 8px; */
+    margin-left: 12px;
+  
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.darkname{
+        border: 2px solid red;
+        font-size: 20px;
+        /* padding: 8px; */
+        margin-left: 12px;
+      
+        border-radius: 15px;
+        text-align: center;
+        cursor: pointer;
+
+}
+.dark{
+    height: 12%;
+    width: 90%;
+    border-radius: 15px;
+    color:white;
+    background-color: black;
+    box-shadow: 1px 1px 3px black;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    align-self: center;
+    /* padding-top: 2px; */
+}

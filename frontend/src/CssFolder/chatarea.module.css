@@ -1,0 +1,124 @@
+.chatareacontainer{
+  /* border: 2px solid red; */
+    border-radius: 15px;
+    flex: 0.7;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 5px;
+    padding: 10px;
+}
+.header{
+  padding: 5px;
+  margin: 5px;
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  display:flex;
+  box-shadow: 1px 1px 5px black;
+
+  
+
+}
+.profileicon{
+  height: 100%;
+  display: flex;
+  padding-top: 3px;
+  /* border: 2px solid red; */
+  margin-left: 10px;
+
+}
+.icon{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  color: white;
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 3px;
+  /* border: 2px solid red; */
+
+
+
+}
+.nametimestamp{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  padding-left: 10px;
+}
+.name{
+  width: 100%;
+  height: 50%;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 5px;
+  /* border: 2px solid red; */
+}
+.timestamp{
+  height: 50%;
+  width: 100%;
+  color: black;
+  font-size: 13px;
+  padding-left: 2px;
+  /* padding-top: 3px; */
+  /* border: 2px solid red; */
+
+}
+.deleteicon{
+  grid-area: 1/3/3/3;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-self: flex-end;
+  margin-bottom: 20px;
+  height: 100%;
+}
+.message{
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  /* height: 80%; */
+   flex: 1;
+   /* border: 2px solid red; */
+   border-radius: 15px;
+   background-color: white;
+   box-shadow: 1px 1px 5px black;
+   overflow: auto;
+   scrollbar-width: none;
+  
+}
+.input{
+  padding: 10px;
+  margin: 5px;
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 1px 1px 5px black;
+
+}
+.input_typearea{
+  height: 100%;
+  width: 95%;
+  /* border: 1px solid brown; */
+  cursor: pointer;
+}
+.input_sendicon{
+  height: 100%;
+  width: 5%;
+  /* border: 1px solid purple; */
+  
+}

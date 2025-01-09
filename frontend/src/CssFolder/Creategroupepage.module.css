@@ -1,0 +1,110 @@
+.Creategroupepage_border{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin: 5px; */
+    /* margin-right: 11px; */
+
+}
+.Creategroupepage_container{
+
+    height: 7vh;
+    width: 98%;
+    border-radius: 15px;
+    background-color: white;
+    /* border: 2px solid red; */
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    /* margin-right: 10px; */
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;
+}
+.grpname_input{
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.selectepeoplecontainer{
+    height: 86%;
+    width: 98%;
+    border-radius: 15px;
+    margin-top: 5px;
+    /* border: 2px solid red; */
+    display: flex;
+    box-shadow: 1px 1px 5px black;
+}
+.showpeople{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+    border-radius: 15px;
+    padding: 15px;
+  
+
+}
+.grpcontainer{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+.uploadgrpdp{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.selectepeopleavatarcontainer{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    align-items: end;
+}
+.popup {
+    height: 46%;
+    width: 16%;
+    border-radius: 15px;
+    /* border: 2px solid red; */
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+    padding: 5px;
+    overflow-y: auto;
+    
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    position: absolute; /* Using absolute positioning */
+    bottom: 50px; /* You can adjust this based on your layout */
+    right: 135px;  /* Adjust this too */
+    transform: scale(0.5);  /* Start smaller */
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; /* Prevent interaction initially */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transitions */
+  }
+  
+  .show {
+    transform: scale(1); /* Scale to full size */
+    opacity: 1; /* Full opacity */
+    pointer-events: auto; /* Allow interaction */
+  }
+  .dark{
+    background-color: white !important;
+    color: black;
+}
+  

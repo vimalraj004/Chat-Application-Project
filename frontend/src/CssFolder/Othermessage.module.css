@@ -1,0 +1,65 @@
+.messageboxcontainer{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-self: start;
+}
+
+.messagebox{
+    background-color: darkgray;
+    color: black;
+    height: auto;
+    max-width: 50%;
+    /* min-width: min-content; */
+    /* width: auto; */
+    /* border:  2px solid red; */
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+ 
+
+   
+}
+.name{
+      /* border:  2px solid red; */
+      text-align: start;
+      padding-left: 10px;
+      padding-top: 10px;
+
+}
+.message{
+      /* border:  2px solid red; */
+      text-align: start;
+      padding-left: 10px;
+      
+}
+.timestamp{
+      /* border:  2px solid red; */
+      text-align:end;
+      padding-right: 5px;
+      font-size: 12px;
+      padding-bottom: 5px;
+    
+}
+.sendernamecontainer{
+      height: 40px;
+      width: 40px;
+      background-color: darkgray;
+      border-radius: 50%;
+      /* margin-right: 5px; */
+      margin-top: 13px;
+  }
+  .sendername{
+      text-align: center;
+      font-size: 20px;
+      /* margin-top: 7px; */
+  }
