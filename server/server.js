@@ -68,7 +68,7 @@ app.use("/api/onlineusers",onlinerouter)
 app.use("/api/chatroutes",chatrouter)
 app.use("/api/message",messagerouter)
 
-httpserver.listen(process.env.port,()=>{
-  console.log(`server ${process.env.port} is connected`);
+httpserver.listen(process.env.PORT,()=>{
+  console.log(`server ${process.env.PORT} is connected`);
   
 })
