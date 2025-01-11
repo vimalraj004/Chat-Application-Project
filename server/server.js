@@ -20,7 +20,7 @@ app.use(express.static('Photos'))
 const {Server}= require("socket.io")
 const {createServer}=require("http")
 // socket cors
-const allowedorigins =  ["http://localhost:3000"]
+const allowedorigins =  ["http://localhost:3000","https://chat-application-project-zeta.vercel.app/"]
 const httpserver = createServer(app)
 const io = new Server(httpserver, {
   cors: {
