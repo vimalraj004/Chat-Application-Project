@@ -1,3 +1,3 @@
-let baseurl = "https://chat-application-project.onrender.com"
+let baseurl = "http://51.20.143.82:4000/"
 
 export {baseurl}
