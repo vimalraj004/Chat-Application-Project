@@ -67,7 +67,7 @@ app.use("/api/entry",userrouter)
 app.use("/api/onlineusers",onlinerouter)
 app.use("/api/chatroutes",chatrouter)
 app.use("/api/message",messagerouter)
-
+app.use("/Photos/Images",express.static(path.join(__dirname,"../Photos/Images")))
 httpserver.listen(process.env.PORT,()=>{
   console.log(`server ${process.env.PORT} is connected`);
   
