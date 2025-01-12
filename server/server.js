@@ -14,7 +14,7 @@ require("dotenv").config();
 let app = express();
 
 // CORS configuration
-const allowedorigins = ["https://chat-application-project-orpin.vercel.app", "http://localhost:3000"];
+const allowedorigins = ["https://chat-application-project-orpin.vercel.app", "http://localhost:3000","https://everfine.shop"];
 
 const corsOptions = {
   origin: (origin, callback) => {
