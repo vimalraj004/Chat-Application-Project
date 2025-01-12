@@ -6,7 +6,7 @@ const {fetchallchats,creategroup,addPeoplesInGrp,selfGroupExit,removePeople}=req
 const routes =async (socket,io)=>{
 
   socket.on("joinroom",(data)=>{
-    console.log(data,"roomid");
+  
     const {userid} = data
         socket.join(userid)
      
@@ -22,10 +22,9 @@ const routes =async (socket,io)=>{
 
 
     socket.on("newmessage",(body)=>{
-      console.log(body,"1234");
+   
         const {chat_id}= body
-        console.log(chat_id,"5678");
-        console.log("dei ne work agariya");
+    
         
         io.to(chat_id).emit("newmessage_globally",{message:"newmessage_received"})
     }
@@ -74,7 +73,7 @@ console.log("Error handling on fetching all the message");
   })
   socket.on("creategroup",async(payload)=>{
     try{
-      console.log(payload,"87564");
+     
       
       await creategroup(socket,payload,io)
     }
