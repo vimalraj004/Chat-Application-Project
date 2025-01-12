@@ -1,3 +1,3 @@
-let baseurl = "https://everfine.shop/"
+let baseurl = "https://everfine.shop"
 
 export {baseurl}
