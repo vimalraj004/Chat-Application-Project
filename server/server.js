@@ -22,7 +22,7 @@ app.use(express.json({ limit: '10mb' })); // Adjust the limit as needed
 const {Server}= require("socket.io")
 const {createServer}=require("http")
 // socket cors
-const allowedorigins =  ["http://localhost:3000","https://chat-application-project-orpin.vercel.app"]
+const allowedorigins =  ["https://chat-application-project-orpin.vercel.app/","http://localhost:3000"]
 const httpserver = createServer(app)
 const io = new Server(httpserver, {
   cors: {
