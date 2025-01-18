@@ -14,7 +14,7 @@ require("dotenv").config();
 let app = express();
 
 // CORS configuration
-const allowedorigins = ["https://chat-application-project-nu.vercel.app","http://localhost:3000"];
+const allowedorigins = ["https://chat-application-project-two.vercel.app","http://localhost:3000"];
 
 const corsOptions = {
   origin: (origin, callback) => {
